@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Algoritmo a *</title>
+    <title>Visualizador de Algoritmos A*</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Visualizador de Algoritmo A*</h1>
-    <div id="controls">
-        <button id="resetButton">Reiniciar Cuadrícula</button>
+    <div>
+        <button id="modeObstacle">Colocar/Quitar Obstáculos</button>
+        <button id="modeStart">Punto de Inicio</button>
+        <button id="modeEnd">Punto de Destino</button>
+        <button id="resetButton">Reiniciar </button>
     </div>
-    <canvas id="gridCanvas" width="800" height="800"></canvas>
+    <canvas id="gridCanvas" width="400" height="400"></canvas>
     <script src="script.js"></script>
 </body>
 </html>
